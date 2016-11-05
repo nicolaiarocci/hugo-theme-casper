@@ -66,6 +66,7 @@ canonifyurls = true
   # linkedinName = ""
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
+  custom_css = [css/custom.css]
   [params.social]
     twitter = "your_twitter"
 
