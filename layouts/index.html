@@ -26,15 +26,15 @@
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            {{ if .Site.Params.githubName }}
-                <a class="bloglogo" href="https://github.com/{{ .Site.Params.githubName }}" target="_blank">
-                <span class="icon-github" style="color:white;font-size:2em"></span>
-                </a>
-            &nbsp;
-            {{end}}
             {{ if .Site.Params.twitterName }}
                 <a class="bloglogo" href="https://twitter.com/{{ .Site.Params.twitterName }}" target="_blank">
                     <span class="icon-twitter" style="color:white;font-size:2em"></span>
+                </a>
+            &nbsp;
+            {{end}}
+            {{ if .Site.Params.githubName }}
+                <a class="bloglogo" href="https://github.com/{{ .Site.Params.githubName }}" target="_blank">
+                <span class="icon-github" style="color:white;font-size:2em"></span>
                 </a>
             &nbsp;
             {{end}}
