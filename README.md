@@ -1,5 +1,5 @@
 # CASPER theme for hugo
-
+(forked by Nicola Iarocci)
 
 Casper is a single-column theme for [Hugo](http://gohugo.io/).
 Ported from [Casper theme for Ghost ](https://github.com/TryGhost/Casper)
